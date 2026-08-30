@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+    
+    <TextView
+        android:id="@+id/tvTituloDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido a la vista de detalle!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#1E88E5"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/tvSubtitulo"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esta informacion fue recibida desde la primera pantalla utilizando un Intent."
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:textColor="#666666"/>
+
+
+    
+    </LinearLayout>
